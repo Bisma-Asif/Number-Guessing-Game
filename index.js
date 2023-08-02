@@ -28,6 +28,6 @@ async function startAgain() {
                 message: "Do You Want to Continue? Press Y or N"
             }
         ]);
-    } while (again.restart == "Y" || again.restart == "y" || again.restart == "Yes" || again.restart == "YES" || again.restart == "yes");
+    } while (again.restart == "Y" || again.restart == "y");
 }
 startAgain();
