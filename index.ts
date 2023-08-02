@@ -38,7 +38,7 @@ async function startAgain() {
             }
         ])
 }
-   while ( again.restart == "Y" || again.restart == "y" || again.restart == "Yes" || again.restart == "YES" || again.restart == "yes");
+   while ( again.restart == "Y" || again.restart == "y");
    
 }
 startAgain();
